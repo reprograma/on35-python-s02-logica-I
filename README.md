@@ -167,3 +167,4 @@ Depois disso, se quisermos invocar essa função:
 * [Dicionários - Asimov Academy](https://hub.asimov.academy/blog/dicionario-python/)
 * [Operadores em Python - Python Academy](https://pythonacademy.com.br/blog/operadores-aritmeticos-e-logicos-em-python)
 * [Funções](https://ebaconline.com.br/blog/funcoes-python)
+* [Exercícios - Python Brasil](https://wiki.python.org.br/EstruturaSequencial)
