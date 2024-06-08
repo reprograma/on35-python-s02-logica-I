@@ -10,4 +10,4 @@ def conversao(medida_em_metros):
 
 resultado = conversao(medida_em_metros)
 
-print(f'{medida_em_metros} metros corresponde a {resultado}cm')
+print(f'{medida_em_metros} metros corresponde a {int(resultado)}cm')
