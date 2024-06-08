@@ -1,0 +1,6 @@
+numero_inteiro = 154
+
+medida = (numero_inteiro) / 100
+
+print(medida)
+

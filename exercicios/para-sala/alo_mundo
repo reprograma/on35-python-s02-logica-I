@@ -1,0 +1,4 @@
+mensagem = ("Alô, Mundo!")
+
+print(mensagem)
+

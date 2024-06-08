@@ -1,0 +1,5 @@
+numero = 5
+
+mensagem = "O número informado foi"
+
+print(mensagem, numero)
