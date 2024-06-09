@@ -1,7 +1,12 @@
-def soma():
-    num1 = int(input("Insira o primeiro número: "))
-    num2 = int(input("Insira o segundo número: "))
-    return num1 + num2
+def media():
+    nota1 = int(input("Digite a primeira nota: "))
+    nota2 = int(input("Digite a segunda nota:"))
+    nota3 = int(input("Digite a terceira nota:"))
+    nota4 = int(input("Digite a quarta nota: "))
 
-resultado = soma()
-print("O resultado da soma é", resultado)
+    return (nota1 + nota2 + nota3 + nota4) / 4
+
+
+resultado = media()
+
+print("A média é: ", resultado)
