@@ -1,37 +1,18 @@
-nota1 = 10
-nota2 = 6.5
-media = (nota1 + nota2) / 2
+def calcula_media(primeira_nota, segunda_nota):
+    media = (primeira_nota + segunda_nota)
+    return media
 
-saldo = 1000
-divida = 850
-resto = saldo - divida
+media_joazinho = calcula_media(1, 2)
+media_mariazinha = calcula_media (4, 5)
 
-numero = 12
-resto_da_divisao = 13 % 2
-print(resto_da_divisao)
+def converter_celcious_para_faremheint(celcius):
+    faremheint = (celcius * 9 / 5) + 32
+    return faremheint
 
+temperatura_em_faremhaeint = converter_celcious_para_faremheint(100)
+print(temperatura_em_faremhaeint)
 
-numero = 15
-numero_resultado = 15 ** 2
+def junta_nome_e_sobrenome (nome, sobrenome):
+    nome_e_sobrenome = nome + " " + sobrenome
+    return nome_e_sobrenome
 
-rafaella = {
-    "idade": "28",
-    "nome": "rafaella",
-    "altura": "1.69",
-    "cidade": "Joinville",
-    "trabalha_com": "RH",
-    "tem_pet": False
-}
-
-apresentacao = f"Oi, meu nome é {rafaella["nome"]}, eu tenho {rafaella["idade"]}, minha altura é {rafaella["altura"]}"
-print(apresentacao)
-
-nota1 = 10
-nota2 = 12
-nota3 = 5
-nota1 += nota2 + nota3 # atribuicao de incremento
-print (nota1)
-
-
-decaiu_ou_manteve = nota3 >= nota2
-print(decaiu_ou_manteve)
