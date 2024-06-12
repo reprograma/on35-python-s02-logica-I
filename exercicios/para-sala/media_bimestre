@@ -1,0 +1,8 @@
+nota_1 = 10
+nota_2 = 3
+nota_3 = 7
+nota_4 = 8
+
+media = (nota_1 + nota_2 + nota_3 + nota_4) / 4
+
+print("A média é", media)

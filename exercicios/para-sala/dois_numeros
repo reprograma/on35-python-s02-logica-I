@@ -1,0 +1,6 @@
+numero_1 = 8
+numero_2 = 2
+
+soma = numero_1 + numero_2
+
+print(soma)
