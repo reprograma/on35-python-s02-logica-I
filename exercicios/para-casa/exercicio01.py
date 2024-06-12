@@ -29,8 +29,8 @@ inss = float(salario_bruto) * 0.08
 sindicato = float(salario_bruto) * 0.05
 salario_liquido = float(salario_bruto) - float(ir) - float(inss) - float(sindicato)
 
-print(f'Salario bruto : R$ {salario_bruto}')
-print(f'IR (11%) : R$ {ir}')
-print(f'INSS (8%) : R$ {inss}')
-print(f'Sindicato (5%) : R$ {sindicato}')
-print(f'Salário líquido : R$ {salario_liquido}')
+print(f'+ Salario bruto : R$ {salario_bruto}')
+print(f'- IR (11%) : R$ {ir}')
+print(f'- INSS (8%) : R$ {inss}')
+print(f'- Sindicato (5%) : R$ {sindicato}')
+print(f'= Salário líquido : R$ {salario_liquido}')
