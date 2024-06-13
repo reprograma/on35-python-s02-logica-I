@@ -1,6 +1,9 @@
-arquivo_mb=int(input('Digite o tamanho do arquivo aqui: '))
-velocidade_mbps=int(input('Digite a velocidade da internet: '))
+arquivo_mb=int(input(" Digite o tamanho do arquivo aqui: "))
+velocidade_internete=int(input(" Digite a velocidade da internt: "))
 
-link_arquivo=(arquivo_mb*velocidade_mbps/8) /60
+conversao = velocidade_internete * 8
+print(conversao)
+tempo_donwload = conversao / 60
+print(tempo_donwload)
 
-print(f'O tempo aproximado de dowload do aquivo em minutos é, {link_arquivo}')
+print(f'O Tempo download em minutos é: {tempo_donwload:}')
